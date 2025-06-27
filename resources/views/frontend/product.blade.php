@@ -5,8 +5,8 @@
 <div class="breadcrumb">
     <div class="container">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="shop.html">Shop</a></li>
+            <li><a href="{{ route('index') }}">Home</a></li>
+            <li><a href="{{ route('shop') }}">Shop</a></li>
             <li><a href="#">Electronics</a></li>
             <li class="active">Wireless Headphones</li>
         </ul>
@@ -203,7 +203,7 @@
                     <div class="product-card-info">
                         <h3 class="product-card-title">Bluetooth Speaker</h3>
                         <div class="product-card-price">$79.99</div>
-                        <a href="product.html" class="btn btn-primary">View Details</a>
+                        <a href="{{ route('product') }}" class="btn btn-primary">View Details</a>
                     </div>
                 </div>
 
@@ -214,7 +214,7 @@
                     <div class="product-card-info">
                         <h3 class="product-card-title">Wireless Earbuds</h3>
                         <div class="product-card-price">$129.99</div>
-                        <a href="product.html" class="btn btn-primary">View Details</a>
+                        <a href="{{ route('product') }}" class="btn btn-primary">View Details</a>
                     </div>
                 </div>
 
@@ -225,7 +225,7 @@
                     <div class="product-card-info">
                         <h3 class="product-card-title">Smart Watch</h3>
                         <div class="product-card-price">$149.99</div>
-                        <a href="product.html" class="btn btn-primary">View Details</a>
+                        <a href="{{ route('product') }}" class="btn btn-primary">View Details</a>
                     </div>
                 </div>
 
@@ -236,7 +236,7 @@
                     <div class="product-card-info">
                         <h3 class="product-card-title">Portable Charger</h3>
                         <div class="product-card-price">$49.99</div>
-                        <a href="product.html" class="btn btn-primary">View Details</a>
+                        <a href="{{ route('product') }}" class="btn btn-primary">View Details</a>
                     </div>
                 </div>
             </div>

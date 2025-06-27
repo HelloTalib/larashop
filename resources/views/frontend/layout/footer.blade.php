@@ -8,10 +8,10 @@
             <div class="footer-col">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="{{ route('index') }}">Home</a></li>
+                    <li><a href="{{ route('shop') }}">Shop</a></li>
+                    <li><a href="{{ route('about') }}">About Us</a></li>
+                    <li><a href="{{ route('contact') }}">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-col">

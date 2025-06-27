@@ -4,7 +4,7 @@
 <div class="breadcrumb">
     <div class="container">
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="{{ route('index') }}">Home</a></li>
             <li class="active">Categories</li>
         </ul>
     </div>

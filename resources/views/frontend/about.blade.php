@@ -4,7 +4,7 @@
 <div class="breadcrumb">
     <div class="container">
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="{{ route('index') }}">Home</a></li>
             <li class="active">About Us</li>
         </ul>
     </div>
@@ -15,7 +15,7 @@
         <div class="hero-content">
             <h1>Our Story</h1>
             <p>We're passionate about providing quality products and exceptional shopping experiences. Learn more about our journey, our team, and our mission.</p>
-            <a href="contact.html" class="btn">Get in Touch</a>
+            <a href="{{ route('contact') }}" class="btn">Get in Touch</a>
         </div>
     </div>
 </section>
@@ -218,7 +218,7 @@
             <div class="cta-content">
                 <h2>Ready to Start Shopping?</h2>
                 <p>Explore our wide selection of quality products and experience the LaraShop difference for yourself.</p>
-                <a href="shop.html" class="btn btn-white">Shop Now</a>
+                <a href="{{ route('shop') }}" class="btn btn-white">Shop Now</a>
             </div>
         </div>
     </section>

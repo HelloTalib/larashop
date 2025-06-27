@@ -4,7 +4,7 @@
 <div class="breadcrumb">
     <div class="container">
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="{{ route('index') }}">Home</a></li>
             <li class="active">Register</li>
         </ul>
     </div>
@@ -73,7 +73,7 @@
                 </div>
 
                 <div class="login-link">
-                    <p>Already have an account? <a href="login.html">Login</a></p>
+                    <p>Already have an account? <a href="{{ route('login') }}">Login</a></p>
                 </div>
             </div>
         </section>

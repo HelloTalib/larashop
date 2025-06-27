@@ -5,7 +5,7 @@
 <div class="breadcrumb">
     <div class="container">
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="{{ route('index') }}">Home</a></li>
             <li class="active">Shopping Cart</li>
         </ul>
     </div>
@@ -120,7 +120,7 @@
                     </table>
 
                     <div class="cart-actions">
-                        <a href="shop.html" class="continue-shopping">
+                        <a href="{{ route('shop') }}" class="continue-shopping">
                             <span>←</span> Continue Shopping
                         </a>
                         <button class="update-cart">Update Cart</button>
@@ -163,7 +163,7 @@
                 <div class="empty-cart-icon">🛒</div>
                 <h3>Your cart is empty</h3>
                 <p>Looks like you haven't added any products to your cart yet.</p>
-                <a href="shop.html" class="btn">Start Shopping</a>
+                <a href="{{ route('shop') }}" class="btn">Start Shopping</a>
             </div>
         </section>
     </div>

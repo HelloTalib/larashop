@@ -4,8 +4,8 @@
 <div class="breadcrumb">
     <div class="container">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="cart.html">Shopping Cart</a></li>
+            <li><a href="{{ route('index') }}">Home</a></li>
+            <li><a href="{{ route('cart') }}">Shopping Cart</a></li>
             <li class="active">Checkout</li>
         </ul>
     </div>
