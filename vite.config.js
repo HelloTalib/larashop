@@ -22,13 +22,15 @@ export default defineConfig({
                 'resources/css/frontend/checkout.css',
                 // Backend/Dashboard assets
                 'resources/css/backend/admin.css',
-                'resources/js/backend/dashboard.js',
+                'resources/css/backend/dashboard.css',
                 'resources/css/backend/products.css',
                 'resources/css/backend/orders.css',
                 'resources/css/backend/customers.css',
                 'resources/css/backend/add-product.css',
                 'resources/css/backend/add-order.css',
                 'resources/css/backend/add-customer.css',
+                'resources/css/backend/add-user.css',
+
             ],
             refresh: true,
         }),

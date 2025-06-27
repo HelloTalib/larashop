@@ -70,3 +70,11 @@ Route::get('/orders', function () {
 Route::get('/products', function () {
     return view('backend.products');
 })->name('products');
+
+Route::get('/users', function () {
+    return view('backend.users');
+})->name('users');
+
+Route::get('/add-user', function () {
+    return view('backend.add-user');
+})->name('add-user');

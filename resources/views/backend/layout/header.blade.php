@@ -22,7 +22,7 @@
     @vite(['resources/css/backend/products.css'])
     @elseif(Route::currentRouteName() == 'orders')
     @vite(['resources/css/backend/orders.css'])
-    @elseif(Route::currentRouteName() == 'customers')
+    @elseif(Route::currentRouteName() == 'customers' || Route::currentRouteName() == 'users')
     @vite(['resources/css/backend/customers.css'])
     @elseif(Route::currentRouteName() == 'add-product')
     @vite(['resources/css/backend/add-product.css'])
@@ -30,6 +30,8 @@
     @vite(['resources/css/backend/add-order.css'])
     @elseif(Route::currentRouteName() == 'add-customer')
     @vite(['resources/css/backend/add-customer.css'])
+    @elseif(Route::currentRouteName() == 'add-user')
+    @vite(['resources/css/backend/add-user.css'])
     @endif
     @endif
 </head>
@@ -73,10 +75,10 @@
                 <a href="admin-security.html" class="menu-item">
                     🔒 <span>Security</span>
                 </a>
-                <a href="admin-users.html" class="menu-item">
+                <a href="{{ route('users') }}" class="menu-item">
                     👤 <span>Users</span>
                 </a>
-                <a href="index.html" class="menu-item">
+                <a href="{{ route('index') }}" class="menu-item">
                     🏪 <span>View Store</span>
                 </a>
             </nav>
