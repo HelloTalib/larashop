@@ -14,7 +14,7 @@
 
     <!-- Styles / Scripts -->
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite(['resources/css/frontend/global.css', 'resources/js/app.js'])
 
     {{-- Load page-specific CSS based on the current route --}}
     @if(Route::currentRouteName() == 'index' || Route::is('/'))
