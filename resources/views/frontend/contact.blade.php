@@ -5,7 +5,7 @@
 <div class="breadcrumb">
     <div class="container">
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="{{ route('index') }}">Home</a></li>
             <li class="active">Contact Us</li>
         </ul>
     </div>
@@ -157,7 +157,7 @@
             <div class="cta-content">
                 <h2>Ready to Start Shopping?</h2>
                 <p>Explore our wide selection of quality products and experience the LaraShop difference for yourself.</p>
-                <a href="shop.html" class="btn btn-white">Shop Now</a>
+                <a href="{{ route('shop') }}" class="btn btn-white">Shop Now</a>
             </div>
         </div>
     </section>

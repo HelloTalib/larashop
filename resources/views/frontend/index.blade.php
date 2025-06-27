@@ -58,7 +58,7 @@
                     <h3 class="product-title">Wireless Headphones</h3>
                     <div class="product-price">$99.99</div>
                     <div class="product-rating">★★★★☆</div>
-                    <a href="product.html" class="btn">View Details</a>
+                    <a href="{{ route('product') }}" class="btn">View Details</a>
                 </div>
             </div>
             <div class="product-card">
@@ -69,7 +69,7 @@
                     <h3 class="product-title">Smart Watch</h3>
                     <div class="product-price">$149.99</div>
                     <div class="product-rating">★★★★★</div>
-                    <a href="product.html" class="btn">View Details</a>
+                    <a href="{{ route('product') }}" class="btn">View Details</a>
                 </div>
             </div>
             <div class="product-card">
@@ -80,7 +80,7 @@
                     <h3 class="product-title">Laptop Sleeve</h3>
                     <div class="product-price">$29.99</div>
                     <div class="product-rating">★★★★☆</div>
-                    <a href="product.html" class="btn">View Details</a>
+                    <a href="{{ route('product') }}" class="btn">View Details</a>
                 </div>
             </div>
             <div class="product-card">
@@ -91,7 +91,7 @@
                     <h3 class="product-title">Bluetooth Speaker</h3>
                     <div class="product-price">$79.99</div>
                     <div class="product-rating">★★★★★</div>
-                    <a href="product.html" class="btn">View Details</a>
+                    <a href="{{ route('product') }}" class="btn">View Details</a>
                 </div>
             </div>
         </div>

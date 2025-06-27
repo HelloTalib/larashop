@@ -206,7 +206,7 @@
                             <h3 class="product-title">Wireless Earbuds</h3>
                             <div class="product-price">$129.99</div>
                             <div class="product-rating">★★★★★</div>
-                            <a href="product.html" class="btn">View Details</a>
+                            <a href="{{ route('product') }}" class="btn">View Details</a>
                         </div>
                     </div>
 
