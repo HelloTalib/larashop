@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\AuthController;
 
 Route::get('/', function () {
     return view('frontend.index');
@@ -28,9 +29,9 @@ Route::get('/login', function () {
     return view('frontend.auth.login');
 })->name('login');
 
-Route::get('/register', function () {
-    return view('frontend.auth.register');
-})->name('register');
+// Registration routes
+Route::get('/register', [AuthController::class, 'register'])->name('register');
+Route::post('/register', [AuthController::class, 'store'])->name('register.store');
 
 Route::get('/cart', function () {
     return view('frontend.cart');
